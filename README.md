@@ -22,6 +22,7 @@ based in the most common names in each of the selectable zones.
 ## Features
 
 Creation of names for a random person, man or woman. Creation of names, surnames or full names.
+The names are generated randomly based on the list of 100 most common names and surnames.
 
 ## Usage
 
