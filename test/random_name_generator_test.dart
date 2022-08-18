@@ -1,4 +1,4 @@
-import 'package:random_names/random_names.dart';
+import 'package:random_name_generator/random_name_generator.dart';
 import 'package:test/test.dart';
 
 void main() {

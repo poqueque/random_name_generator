@@ -1,7 +1,7 @@
-name: random_names
+name: random_name_generator
 description: Generation of Random People Names
 version: 1.0.0
-homepage: https://github.com/poqueque/random_names
+homepage: https://github.com/poqueque/random_name_generator
 
 environment:
   sdk: '>=2.17.6 <3.0.0'

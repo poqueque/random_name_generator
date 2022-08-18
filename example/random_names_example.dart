@@ -1,4 +1,4 @@
-import 'package:random_names/random_names.dart';
+import 'package:random_name_generator/random_name_generator.dart';
 
 void main() {
   var randomNames = RandomNames(Zone.france);

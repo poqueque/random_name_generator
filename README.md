@@ -12,7 +12,7 @@ and the Flutter guide for
 -->
 
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)
-[![Version](https://img.shields.io/pub/v/random_names.svg)](https://pub.dev/packages/random_names)
+[![Version](https://img.shields.io/pub/v/random_name_generator.svg)](https://pub.dev/packages/random_name_generator)
 
 This package creates random people names to be used in Dart/Flutter apps. The generation is done
 based in the most common names in each of the selectable zones.
