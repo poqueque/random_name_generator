@@ -14,8 +14,9 @@ class Zone {
   /// Structure for full names. _N_ is a first name and _S_ is a last name. It can be overridden when the class is extended
   String get fullNameStructure => "_N_ _S_";
 
-  static Zone spain = Spain();
-  static Zone us = US();
   static Zone catalonia = Catalonia();
   static Zone france = France();
+  static Zone spain = Spain();
+  static Zone us = US();
+  static Zone uk = UK();
 }

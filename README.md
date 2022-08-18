@@ -11,29 +11,39 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages). 
 -->
 
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)
+[![Version](https://img.shields.io/pub/v/random_names.svg)](https://pub.dev/packages/random_names)
+
 This package creates random people names to be used in Dart/Flutter apps. The generation is done
-based in the most common names in each of the selectable locales 
+based in the most common names in each of the selectable zones.
+
+**Please star the repo to support the project**
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
-
-## Getting started
-
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+Creation of names for a random person, man or woman. Creation of names, surnames or full names.
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
+`RandomNames` is a tool class to create random names for specific `Zone`. To create a RandomNames
+instance you need to use one of available `Zone` objects.
 
 ```dart
-const like = 'sample';
+var randomNames = RandomNames(Zone.us);
+```
+
+## Supported Zones
+
+There are static accessors to the different zones available on the Zone class: 
+
+```dart
+Zone.catalonia
+Zone.france
+Zone.spain
+Zone.uk
+Zone.us
 ```
 
 ## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
+Feel free to create a pull request to expand the library for other Zones.
