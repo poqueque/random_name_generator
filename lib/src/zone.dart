@@ -1,7 +1,7 @@
-import 'package:random_names/src/zones/catalonia.dart';
-import 'package:random_names/src/zones/france.dart';
-
+import 'zones/catalonia.dart';
+import 'zones/france.dart';
 import 'zones/spain.dart';
+import 'zones/uk.dart';
 import 'zones/us.dart';
 
 class Zone {
