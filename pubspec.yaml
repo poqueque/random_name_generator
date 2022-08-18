@@ -1,6 +1,6 @@
 name: random_name_generator
 description: Dart package for the generation of Random Names, based on most common names
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/poqueque/random_name_generator
 
 environment:
