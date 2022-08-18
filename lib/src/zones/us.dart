@@ -2,7 +2,8 @@ import '../zone.dart';
 
 class US extends Zone {
   US() {
-    surnames = ["Smith",
+    surnames = [
+      "Smith",
       "Johnson",
       "Williams",
       "Jones",
@@ -207,7 +208,8 @@ class US extends Zone {
       "Louis",
     ];
 
-    namesW = ["Mary",
+    namesW = [
+      "Mary",
       "Patricia",
       "Jennifer",
       "Linda",

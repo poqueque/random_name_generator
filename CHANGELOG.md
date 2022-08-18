@@ -1,3 +1,3 @@
-## 1.0.0
+## 1.0.0 - 18 Ago 2022
 
-- Initial version.
+* First Release

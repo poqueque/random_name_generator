@@ -2,6 +2,7 @@ import '../zone.dart';
 
 class Spain extends Zone {
   bool _twoSurnames = false;
+
   Spain({bool twoSurnames = false}) {
     _twoSurnames = twoSurnames;
     surnames = [

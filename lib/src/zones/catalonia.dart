@@ -2,9 +2,11 @@ import '../zone.dart';
 
 class Catalonia extends Zone {
   bool _twoSurnames = false;
+
   Catalonia({bool twoSurnames = false}) {
     _twoSurnames = twoSurnames;
-    surnames = ["García",
+    surnames = [
+      "García",
       "Martínez",
       "Fernández",
       "Sánchez",
@@ -106,7 +108,8 @@ class Catalonia extends Zone {
       "Planella",
     ];
 
-    namesM = ["Marc",
+    namesM = [
+      "Marc",
       "Jordi",
       "David",
       "Pau",
@@ -208,7 +211,8 @@ class Catalonia extends Zone {
       "Diego",
     ];
 
-    namesW = ["Laura",
+    namesW = [
+      "Laura",
       "Anna",
       "Cristina",
       "Maria",
