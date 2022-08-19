@@ -33,6 +33,17 @@ instance you need to use one of available `Zone` objects.
 var randomNames = RandomNames(Zone.us);
 ```
 
+The `RandomNames` object has several methods to get random people names:
+
+`randomNames.name()` gives a random first name (man or woman)
+`randomNames.womanName()` gives a random woman first name
+`randomNames.manName()` gives a random man first name
+`randomNames.surname()` gives a random last name
+
+`randomNames.fullName()` gives a random full name (man or woman)
+`randomNames.womanFullName()` gives a random woman full name
+`randomNames.manFullName()` gives a random man full name
+
 ## Supported Zones
 
 There are static accessors to the different zones available on the Zone class: 
