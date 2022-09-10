@@ -11,4 +11,6 @@ void main() {
   print("Spain:     ${randomNames.fullName()}");
   randomNames = RandomNames(Zone.catalonia);
   print("Catalonia: ${randomNames.fullName()}");
+  randomNames = RandomNames(Zone.turkey);
+  print("Turkey: ${randomNames.fullName()}");
 }

@@ -59,6 +59,7 @@ Zone.france
 Zone.spain
 Zone.uk
 Zone.us
+Zone.turkey
 ```
 
 ## Additional information
