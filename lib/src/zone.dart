@@ -1,6 +1,7 @@
 import 'zones/catalonia.dart';
 import 'zones/france.dart';
 import 'zones/spain.dart';
+import 'zones/turkey.dart';
 import 'zones/uk.dart';
 import 'zones/us.dart';
 
@@ -19,4 +20,5 @@ class Zone {
   static Zone spain = Spain();
   static Zone us = US();
   static Zone uk = UK();
+  static Zone turkey = Turkey();
 }
