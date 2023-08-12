@@ -1,0 +1,17 @@
+import '../zone.dart';
+
+class ZoneBase extends Zone {
+  ZoneBase() {
+    surnames = [
+      // List of surnames
+    ];
+
+    namesM = [
+      // List of male names
+    ];
+
+    namesW = [
+      // List of female names
+    ];
+  }
+}
