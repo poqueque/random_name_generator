@@ -60,6 +60,29 @@ Zone.spain
 Zone.uk
 Zone.us
 Zone.turkey
+Zone.germany
+Zone.canada
+Zone.afghanistan
+Zone.austria
+Zone.belgium
+Zone.brazil
+Zone.china
+Zone.egypt
+Zone.finland
+Zone.india
+Zone.iran
+Zone.israel
+Zone.italy
+Zone.japan
+Zone.poland
+Zone.romania
+Zone.russia
+Zone.saudiArabia
+Zone.southAfrica
+Zone.switzerland
+Zone.uganda
+Zone.ukraine
+Zone.zimbabwe
 ```
 
 ## Additional information
