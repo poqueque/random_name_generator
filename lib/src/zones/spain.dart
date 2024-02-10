@@ -1,6 +1,9 @@
 import '../zone.dart';
 
+/// Zone Spain
 class Spain extends Zone {
+  @override
+  String id = "spain";
   bool _twoSurnames = false;
 
   Spain({bool twoSurnames = false}) {

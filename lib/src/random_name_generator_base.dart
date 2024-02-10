@@ -1,10 +1,16 @@
 import 'zone.dart';
 
+/// Base class for random name generators
 class RandomNames {
   late Zone _zone;
 
-  RandomNames(Zone zone) {
-    _zone = zone;
+  RandomNames([Zone? zone]) {
+    if (zone == null) {
+      Zone.all.shuffle();
+      _zone = Zone.all.first;
+    } else {
+      _zone = zone;
+    }
   }
 
   /// Returns a random first name
@@ -53,4 +59,6 @@ class RandomNames {
         .replaceFirst("_N_", manName())
         .replaceFirst("_N_", manName());
   }
+
+  Zone get zone => _zone;
 }

@@ -1,6 +1,10 @@
 import '../zone.dart';
 
+/// Zone Poland
 class Poland extends Zone {
+  @override
+  String id = "poland";
+
   Poland() {
     surnames = [
       "Nowak",

@@ -1,6 +1,9 @@
 import '../zone.dart';
 
+/// Zone UK
 class UK extends Zone {
+  @override
+  String id = "uk";
   UK() {
     surnames = [
       "Smith",
