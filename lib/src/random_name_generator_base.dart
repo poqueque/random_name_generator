@@ -1,36 +1,41 @@
+import 'dart:math';
+
 import 'zone.dart';
 
 /// Base class for random name generators
 class RandomNames {
-  late Zone _zone;
+  final Zone _zone;
+  final Random? _random;
 
-  RandomNames([Zone? zone]) {
-    if (zone == null) {
-      Zone.all.shuffle();
-      _zone = Zone.all.first;
-    } else {
-      _zone = zone;
-    }
-  }
+  /// Creates a new instance of RandomNames that accepts a [Random] instance
+  /// to be used for generating random names allowing to generate names in a
+  /// reproducible way.
+  RandomNames.seeded({
+    Zone? zone,
+    Random? random,
+  })  : _random = random,
+        _zone = zone ?? ([...Zone.all]..shuffle(random)).first;
+
+  factory RandomNames([Zone? zone]) => RandomNames.seeded(zone: zone);
 
   /// Returns a random first name
   String name() {
-    return (_zone.names..shuffle()).first;
+    return ([..._zone.names]..shuffle(_random)).first;
   }
 
   /// Returns a random first name for a woman
   String womanName() {
-    return (_zone.namesW..shuffle()).first;
+    return ([..._zone.namesW]..shuffle(_random)).first;
   }
 
   /// Returns a random first name for a man
   String manName() {
-    return (_zone.namesM..shuffle()).first;
+    return ([..._zone.namesM]..shuffle(_random)).first;
   }
 
   /// Returns a random surname
   String surname() {
-    return (_zone.surnames..shuffle()).first;
+    return ([..._zone.surnames]..shuffle(_random)).first;
   }
 
   /// Returns a random full name
