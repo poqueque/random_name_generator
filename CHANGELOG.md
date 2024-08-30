@@ -17,4 +17,4 @@
 
 ## 1.4.0 - 29 Aug 2024
 
-* Added possibility to pass a `Random` instance to `RandomNames` constructor.
+* Added possibility to pass a `Random` instance to `RandomNames` constructor (thanks to Gianmarco Calbi)
