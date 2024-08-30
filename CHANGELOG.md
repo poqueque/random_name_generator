@@ -14,3 +14,7 @@
 
 * Added possibility to call RandomNames with a random zone (with no parameters)
 * Improved examples and documentation
+
+## 1.4.0 - 29 Aug 2024
+
+* Added possibility to pass a `Random` instance to `RandomNames` constructor.
